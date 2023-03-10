@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ZZ</title>
+</head>
+<body>
+    <section id="bloque1" class="visible" > 
+        <section>
+            <h1></h1>
+            <form id="formulario1">
+                <input type="text" id="nombreUsuario" placeholder="Usuario"> <br> <br>
+                <input type="password" id="password" placeholder="contraseña" value=""> <br> <br>
+            </form>
+            <input type="button" id="iniciars" class="btniniciars" value="iniciar Sesion">
+        </section>
+    </section>
+    <section id="bloque2" class="quitar"> 
+        <section class="menu"></section>
+        <form>
+            <input type="button" id="btnclientes" class="btnclientes" value="clientes">
+            <input type="button" id="btncelulares" class="btncelulares"  value="celulares">
+            <input type="button" id="btncomputadores" class="btncomputadores" value="computadores">
+            
+        </form>
+        <input type="button" id="cerrars" class="btncerrars" value="cerrar Sesion">
+    </section>
+
+    <section id="bloque3" class="quitar"> 
+        <section class="clientes">
+            
+            <form>
+                <li>
+                    <ul><input type="text" id="nombre" placeholder="Nombre"></ul>
+                    <ul><input type="number" id="documento" placeholder="Documento"></ul>
+                    <ul><input type="number" id="celular" placeholder="Celular"></ul>
+                    <ul><input type="text" id="direccion" placeholder="direccion"></ul>
+                    <ul><input type="email" id="correo" placeholder="Correo"></ul>
+                    <ul><input type="file" id="slcImagen" name="img"></ul>
+
+                </li>
+            </form>
+            <input type="button" id="btnAtras" class="btnAtras" value="Atras">
+            <input type="button" id="btnGuardar" class="btnGuardar" value="Guardar">
+            
+            <!-- Crear card -->
+            <section class="box">
+                <section id= "card" class="quitar">
+                    <section class="image">
+                        <img id="contenedorImagen" src="" class="imagen">
+                    </section>
+                    </li>
+                        <ul id="nombreCard"></ul>
+                        <ul id="documentoCard"></ul>
+                        <ul id="celularCard"></ul>
+                        <ul id="direccionCard"></ul>
+                        <ul id="correoCard"></ul>
+                    </li>
+                </section>
+            </section>
+        </section>
+
+    </section>
+     <section id="bloque4" class="quitar">
+            <section class="celulares">
+                
+                <form>
+                    <li>
+                        <ul><input type="text" id="nombrece" placeholder="nombre"></ul>
+                        <ul><input type="number" id="referencia" placeholder="Referencia"></ul>
+                        <ul><input type="number" id="codigo" placeholder="codigo"></ul>
+                        <ul><input type="text" id="valor" placeholder="valor"></ul>
+                        <ul><input type="number" id="Cantidad" placeholder="Cantidad"></ul>
+                        <ul><input type="file" id="slcImagen" name="img"></ul>
+                    </li>
+                </form>
+                <input type="button" id="btnAtras2" class="btnAtras2" value="Atras">
+                <input type="button" id="btnGuardar2" class="btnGuardar2" value="Guardar">
+
+                <section class="box">
+                    <section id= "card" class="quitar">
+                        <section class="image">
+                            <img id="contenedorImagen" src="" class="imagen">
+                        </section>
+                        </li>
+                            <ul id="nombreCarda"></ul>
+                            <ul id="referenciaCard"></ul>
+                            <ul id="codigoCard"></ul>
+                            <ul id="valorCard"></ul>
+                            <ul id="cantidadCard"></ul>
+                        </li>
+                    </section>
+                </section>
+            </section>
+        </section>
+        
+       <section id="bloque5" class="quitar">
+            <section class="computadores">
+                <form>
+                    <li>
+                        <ul><input type="text" id="Nombreco" placeholder="Nombre"></ul>
+                        <ul><input type="number" id="referenciaco" placeholder="Referencia"></ul>
+                        <ul><input type="number" id="codigoco" placeholder="codigo"></ul>
+                        <ul><input type="text" id="valorco" placeholder="valor"></ul>
+                        <ul><input type="number" id="cantidadco" placeholder="Cantidad"></ul>
+                        <ul><input type="file" id="slcImagen" name="img"></ul>
+                    </li>
+                </form>
+                <input type="button" id="btnAtras3" class="btnAtras3" value="Atras">
+                <input type="button" id="btnGuardar3" class="btnGuardar3" value="Guardar">
+                <section class="box">
+                    <section id= "card" class="quitar">
+                        <section class="image">
+                            <img id="contenedorImagen" src="" class="imagen">
+                        </section>
+                        </li>
+                            <ul id="nombreCard"></ul>
+                            <ul id="referenciaCard"></ul>
+                            <ul id="codigoCard"></ul>
+                            <ul id="valorCard"></ul>
+                            <ul id="cantidadCard"></ul>
+                        </li>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
